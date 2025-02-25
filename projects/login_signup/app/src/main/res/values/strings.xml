@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Login System SQLite</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="default_email">yousuf@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="full_name">Full Name</string>
+    <string name="welcome">Welcome</string>
+    <string name="login_success">Login Successful!</string>
+    <string name="login_failed">Login Failed. Please check your credentials.</string>
+    <string name="signup_success">Sign Up Successful!</string>
+    <string name="default_password">yousuf</string>
+    <string name="default_name">Muhammad Yousuf</string>
+    <string name="signup_failed">Email already exists</string>
+</resources>
+

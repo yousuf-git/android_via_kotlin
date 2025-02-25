@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <!-- Input Field for First Number -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Task 3"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Input Field for Second Number -->
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter first number"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second number"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginTop="16dp" />
+
+    <!-- Result Field -->
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Result"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginTop="16dp"
+        android:focusable="false"
+        android:clickable="false" />
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/purple_500"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
+        android:text="M. Yousuf"
+        android:textColor="@color/white" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/alarm_item_background">
+
+    <ImageView
+        android:id="@+id/alarmIconImageView"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:contentDescription="@string/clock_icon"
+        android:src="@drawable/ic_alarm"
+        android:layout_gravity="center_vertical"
+        app:tint="@color/icon_tint" />
+
+<!--    another layout with vertical direction that contains 2 TextView for alarm name and then date time info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/alarmNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_alarm_name"
+            android:textSize="16sp"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/alarmTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_alarm_time"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"/>
+    </LinearLayout>
+
+<!-- for future -->
+    <!--    <Switch-->
+<!--        android:id="@+id/alarmSwitch"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:thumbTint="@color/switch_thumb_tint"-->
+<!--        android:trackTint="@color/switch_track_tint"/>-->
+
+
+
+</LinearLayout>

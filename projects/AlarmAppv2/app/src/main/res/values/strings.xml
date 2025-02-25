@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Alarm App v2</string>
+    <string name="scheduled_alarms">Scheduled Alarms</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="select_ringtone">Select Ringtone</string>
+    <string name="select_date_amp_time"><![CDATA[Select Date & Time]]></string>
+    <string name="current_time">Current Time</string>
+    <string name="app_title">Yousuf\'s Alarm Manager</string>
+    <string name="alarm_name">Enter Alarm Name</string>
+    <string name="clock_icon">clock_icon</string>
+    <string name="default_alarm_name">ALARM !</string>
+    <string name="dismiss_msg">Dismiss</string>
+    <string name="default_alarm_time">Default time</string>
+</resources>
