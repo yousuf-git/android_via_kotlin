@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OTP Auth</string>
+    
+    <!-- Common -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_unknown">An unknown error occurred.</string>
+    <string name="error_invalid_credentials">Invalid credentials. Please try again.</string>
+    <string name="error_user_exists">User already exists with this email or phone number.</string>
+    
+    <!-- Landing -->
+    <string name="welcome_title">Welcome to OTP Auth</string>
+    <string name="welcome_subtitle">Secure authentication with OTP verification</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_register">Register</string>
+    <string name="need_help">Need help?</string>
+    
+    <!-- Login -->
+    <string name="login_title">Log in</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="error_invalid_phone">Please enter a valid phone number</string>
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+    
+    <!-- Register -->
+    <string name="register_title">Create Account</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_address">Address</string>
+    <string name="btn_create_account">Create Account</string>
+    <string name="error_invalid_name">Please enter your full name</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_invalid_address">Please enter your address</string>
+    
+    <!-- Home -->
+    <string name="home_title">Welcome, %1$s</string>
+    <string name="balance_title">Account Balance</string>
+    <string name="overview_title">Overview</string>
+    <string name="income_title">Income</string>
+    <string name="expenses_title">Expenses</string>
+    <string name="btn_request_money">Request Money</string>
+    <string name="btn_send_money">Send Money</string>
+    <string name="transactions">Transactions</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+</resources>
